@@ -1,5 +1,5 @@
 .footer{
-    background-color: #eeeae5;
+    background-color: #DED0D0;
     color: black;
     font-family: "Spectral";
     padding: 5px 0;
@@ -19,7 +19,7 @@ footer a{
 footer{
     padding: 50px 0;
     color: black;
-    background-color: #e3d8ca;
+    background-color: #662F2F;
     font-family: "Spectral";
 }
 
@@ -154,7 +154,7 @@ footer{
 
 .sub-navbar{
     /* background-color: #292929; */
-    background-color: #eeeae5;
+    background-color: #DED0D0;
     color: black;
 }
 
@@ -2487,7 +2487,7 @@ body{
     overflow-x: hidden;
     margin: 0;
     font-family: 'Spectral', serif;
-    background-color: #eeeae5;
+    background-color: #DED0D0;
 }
 sup {
     top: -.5em;
