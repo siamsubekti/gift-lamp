@@ -1,0 +1,99 @@
+.img-detail {
+    width: 100%;
+}
+.img-other {
+    width: 10rem;
+}
+.product-detail .card:hover .overlay {
+    opacity: 1;
+}
+.p-small {
+    font-size: 90%!important;
+}
+.product-detail .card .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f2f2f2c2;
+}
+
+@media (max-width: 575.98px) {
+    .product-detail .card .overlay {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlay-content {
+        margin-top: 20px;
+    }   
+    .p {
+        font-size: 0.8rem!important;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767.98px) {
+    .product-detail .card .overlay {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlay-content {
+        margin-top: 20px;
+    }
+    .p {
+        font-size: 0.8rem!important;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991.98px) {
+    .product-detail .card .overlay {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlay-content {
+        margin-top: 20px;
+    }
+    .banner-img {
+        width: 100%;
+    }
+    .p {
+        font-size: 0.8rem!important;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199.98px) {
+    .product-detail .card .overlay {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlay-content {
+        margin-top: 20px;
+    }
+    .banner-img {
+        width: 40%;
+    }
+    .p {
+        font-size: 0.8rem!important;
+    }
+}
+
+@media(min-width: 1200px) {
+    .product-detail .card .overlay {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlay-content {
+        margin-top: 20px;
+    }
+    .banner-img {
+        width: 40%;
+    }
+}
